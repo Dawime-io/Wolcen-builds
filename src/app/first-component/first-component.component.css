@@ -1,0 +1,55 @@
+
+.table-hover tbody tr:hover {
+    
+    background-color: #f0f8ffc2 ;
+  }
+.table tbody + tbody{
+    border: none;
+}
+tr:nth-child(odd){
+    background-color: #778DA9;
+}
+thead tr:first-child{
+    background-color: #C4C4C4;
+}
+tr:nth-child(even){
+    background-color: #778DA975;
+}
+tr{
+   height: 60px; 
+}
+.type, .auteur{
+    background: #1B263B;
+    color: #c4c4c4;
+    padding: 0 5px;
+
+    font-size: 12px;
+    font-weight: 500;
+   
+}
+.auteur{
+    float:right;
+    position: relative;
+    top:-35px;
+    padding : 2px 5px;
+    font-weight: 600;
+}
+
+td{
+    padding-bottom: 2px;
+    padding-top: 5px;
+}
+.by{
+    font-weight: 400;
+}
+h2{
+    font-variant: small-caps;
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+.description{
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 7px 0;
+
+}

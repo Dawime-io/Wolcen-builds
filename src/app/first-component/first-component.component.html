@@ -1,0 +1,33 @@
+
+<section class="container" >
+<div class="row">
+
+    <table class="table table-border table-hover  col-10 offset-1 mt-5" >
+                   
+        <thead class="bg-grey"> 
+    
+          <tr class="table-border"> 
+            <th class="w-100 table-border align-middle" scope="col" colspan="4" border> Les plus populaires :</th>
+          </tr>
+    
+        </thead>
+    
+        <tbody>
+    
+          <tr *ngFor="let build of builds | slice:0:3; let i = index"  > 
+                
+            <th  class="table-border" scope="row">1</th>
+            <td class="table-border">
+                <h2>{{ build.title}}</h2>
+                 <p class="description ">{{build.build}}</p>
+                 <span class="type ">{{ build.type }}</span>            
+                 <span class="auteur"> <span class="by">By </span> {{build.author}}</span>
+            
+                
+    
+        </tbody>
+    
+    </table>
+
+</div> 
+</section>
