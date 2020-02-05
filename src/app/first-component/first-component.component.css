@@ -1,4 +1,3 @@
-
 .table-hover tbody tr:hover {
     
     background-color: #f0f8ffc2 ;
@@ -9,12 +8,15 @@
 tr:nth-child(odd){
     background-color: #778DA9;
 }
+
 thead tr:first-child{
     background-color: #C4C4C4;
 }
+
 tr:nth-child(even){
     background-color: #778DA975;
 }
+
 tr{
    height: 60px; 
 }
@@ -27,6 +29,7 @@ tr{
     font-weight: 500;
    
 }
+
 .auteur{
     float:right;
     position: relative;
@@ -39,9 +42,11 @@ td{
     padding-bottom: 2px;
     padding-top: 5px;
 }
+
 .by{
     font-weight: 400;
 }
+
 h2{
     font-variant: small-caps;
     font-weight: 600;
@@ -52,4 +57,7 @@ h2{
     font-size: 12px;
     padding: 7px 0;
 
+}
+td a{
+    color: black;
 }

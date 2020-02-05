@@ -58,12 +58,21 @@ table {
 
     font-family: 'Roboto', sans-serif;
 }
+
 .bg-prim{
     background-color: var(--primarybis);
 }
+
 .bg-grey{
  background-color: var(--greylight);
 }
+body{
+
+    background-color: var(--secondary);
+    background-image: url("https://www.transparenttextures.com/patterns/maze-black.png");
+
+}
+
 a{
     color: var(--greylight);
 }
@@ -75,16 +84,20 @@ nav{
 .container{
     width: 960px;
 }
+
 .h64{
     height: 64px;
 }
+
 th{
  width: 12%;   
 }
+
 .bannier{
     background-image: url(assets/bannier.png);
-    height: 374px;
+    height: 300px;
 }
+
 h1{
     font-family: 'Modern Antiqua', cursive;
     font-size: 48px ;
@@ -92,6 +105,7 @@ h1{
     line-height: 250px;
     letter-spacing: 7px;
 }
+
 .second{
     position: absolute;
     top: 80px;
@@ -100,7 +114,27 @@ h1{
 .table-border{
     border:  1px solid var(--dark)!important;
 }
+
 tr{
     height: 54px;
     vertical-align: text-top;
+}
+
+app-admin{
+    width: 100%;
+}
+
+footer{
+
+    text-align: center;
+    height: 40px;
+    
+
+}
+
+footer p{
+
+    color:rgba(245, 245, 245, 0.61);
+    padding-top: 20px;    
+
 }

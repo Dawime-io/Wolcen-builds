@@ -2,7 +2,7 @@
 <section class="container" >
 <div class="row">
 
-    <table class="table table-border table-hover  col-10 offset-1 mt-5" >
+    <table class="table table-border table-hover  col-10 offset-1 mt-4" >
                    
         <thead class="bg-grey"> 
     
@@ -14,14 +14,14 @@
     
         <tbody>
     
-          <tr *ngFor="let build of builds | slice:0:3; let i = index"  > 
+          <tr *ngFor="let build of builds | slice:0:15; let i = index"  > 
                 
-            <th  class="table-border" scope="row">1</th>
+            
             <td class="table-border">
-                <h2>{{ build.title}}</h2>
+                <a href="{{build.link}}" target="_blank" rel="noopener noreferrer"><h2>{{ build.title}}</h2>
                  <p class="description ">{{build.build}}</p>
                  <span class="type ">{{ build.type }}</span>            
-                 <span class="auteur"> <span class="by">By </span> {{build.author}}</span>
+                 <span class="auteur"> <span class="by">By </span> {{build.author}}</span></a>
             
                 
     
